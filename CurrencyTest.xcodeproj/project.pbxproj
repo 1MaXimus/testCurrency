@@ -12,6 +12,8 @@
 		500DD73020EA672F00B51356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500DD72E20EA672F00B51356 /* Main.storyboard */; };
 		500DD73220EA674600B51356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500DD73120EA674600B51356 /* Assets.xcassets */; };
 		500DD73520EA674600B51356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500DD73320EA674600B51356 /* LaunchScreen.storyboard */; };
+		500DD73D20EA7B0300B51356 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DD73C20EA7B0300B51356 /* MyTableViewCell.swift */; };
+		500DD73F20EA854700B51356 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DD73E20EA854700B51356 /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		500DD73120EA674600B51356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		500DD73420EA674600B51356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		500DD73620EA674600B51356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		500DD73C20EA7B0300B51356 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		500DD73E20EA854700B51356 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				500DD72A20EA672F00B51356 /* AppDelegate.swift */,
 				500DD72C20EA672F00B51356 /* ViewController.swift */,
+				500DD73E20EA854700B51356 /* MyTableViewController.swift */,
 				500DD72E20EA672F00B51356 /* Main.storyboard */,
+				500DD73C20EA7B0300B51356 /* MyTableViewCell.swift */,
 				500DD73120EA674600B51356 /* Assets.xcassets */,
 				500DD73320EA674600B51356 /* LaunchScreen.storyboard */,
 				500DD73620EA674600B51356 /* Info.plist */,
@@ -137,6 +143,8 @@
 			files = (
 				500DD72D20EA672F00B51356 /* ViewController.swift in Sources */,
 				500DD72B20EA672F00B51356 /* AppDelegate.swift in Sources */,
+				500DD73D20EA7B0300B51356 /* MyTableViewCell.swift in Sources */,
+				500DD73F20EA854700B51356 /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
